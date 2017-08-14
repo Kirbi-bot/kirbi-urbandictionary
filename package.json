@@ -1,18 +1,16 @@
 {
-  "author": {
-      "name": "@naterchrdsn"
-  },
-  "dependencies": {
-    	"urban": "^0.3.1"
-  },
-  "description": "adds the !urban command to Kirbi",
-  "devDependencies": {},
-  "license": "Apache-2.0",
-  "name": "kirbi-urbandictionary",
-  "optionalDependencies": {},
-  "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Richardson-Media-House/kirbi-urbandictionary.git"
-  },
-  "version": "0.0.1"
+	"author": "Nate Richardson <hello@naterichardson.com> (https://naterichardson.com)",
+	"dependencies": {
+		"urban": "^0.3.1"
+	},
+	"description": "adds the !urban command to Kirbi",
+	"devDependencies": {},
+	"license": "Apache-2.0",
+	"name": "kirbi-urbandictionary",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Richardson-Media-House/kirbi-urbandictionary.git"
+	},
+	"version": "0.0.1",
+	"main": "urbandictionary.js"
 }

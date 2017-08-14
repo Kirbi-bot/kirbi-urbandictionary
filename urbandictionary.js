@@ -28,7 +28,7 @@ exports.urban = {
 
 			cb({
 				embed: {
-					color: Kirbi.Config.defaultEmbedColor,
+					color: Kirbi.Config.discord.defaultEmbedColor,
 					title: title,
 					description: message,
 					footer: {
