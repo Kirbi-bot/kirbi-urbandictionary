@@ -1,6 +1,6 @@
 const urban = require('urban');
 
-module.exports = function (config, auth) {
+module.exports = function (Kirbi) {
 	return {
 		commands: [
 			'urban'
@@ -28,7 +28,7 @@ module.exports = function (config, auth) {
 		
 					cb({
 						embed: {
-							color: config.discord.defaultEmbedColor,
+							color: Kirbi.Config.discord.defaultEmbedColor,
 							title: title,
 							description: message,
 							footer: {
