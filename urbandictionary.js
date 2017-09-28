@@ -1,6 +1,6 @@
 const urban = require('urban');
 
-module.exports = function (Kirbi) {
+module.exports = Kirbi => {
 	return {
 		commands: [
 			'urban'
